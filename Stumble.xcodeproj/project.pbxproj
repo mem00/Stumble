@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A31080EB203B9EF000004B27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31080EA203B9EF000004B27 /* AppDelegate.swift */; };
+		A31080ED203B9EF000004B27 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31080EC203B9EF000004B27 /* ViewController.swift */; };
+		A31080F0203B9EF000004B27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A31080EE203B9EF000004B27 /* Main.storyboard */; };
+		A31080F2203B9EF000004B27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A31080F1203B9EF000004B27 /* Assets.xcassets */; };
+		A31080F5203B9EF000004B27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A31080F3203B9EF000004B27 /* LaunchScreen.storyboard */; };
+		A3108100203B9EF000004B27 /* StumbleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31080FF203B9EF000004B27 /* StumbleTests.swift */; };
+		A310810B203B9EF000004B27 /* StumbleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A310810A203B9EF000004B27 /* StumbleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A31080FC203B9EF000004B27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A31080DF203B9EF000004B27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A31080E6203B9EF000004B27;
+			remoteInfo = Stumble;
+		};
+		A3108107203B9EF000004B27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A31080DF203B9EF000004B27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A31080E6203B9EF000004B27;
+			remoteInfo = Stumble;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A31080E7203B9EF000004B27 /* Stumble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stumble.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A31080EA203B9EF000004B27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A31080EC203B9EF000004B27 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A31080EF203B9EF000004B27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A31080F1203B9EF000004B27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A31080F4203B9EF000004B27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A31080F6203B9EF000004B27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A31080FB203B9EF000004B27 /* StumbleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StumbleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A31080FF203B9EF000004B27 /* StumbleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StumbleTests.swift; sourceTree = "<group>"; };
+		A3108101203B9EF000004B27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3108106203B9EF000004B27 /* StumbleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StumbleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A310810A203B9EF000004B27 /* StumbleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StumbleUITests.swift; sourceTree = "<group>"; };
+		A310810C203B9EF000004B27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A31080E4203B9EF000004B27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A31080F8203B9EF000004B27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3108103203B9EF000004B27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A31080DE203B9EF000004B27 = {
+			isa = PBXGroup;
+			children = (
+				A31080E9203B9EF000004B27 /* Stumble */,
+				A31080FE203B9EF000004B27 /* StumbleTests */,
+				A3108109203B9EF000004B27 /* StumbleUITests */,
+				A31080E8203B9EF000004B27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A31080E8203B9EF000004B27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A31080E7203B9EF000004B27 /* Stumble.app */,
+				A31080FB203B9EF000004B27 /* StumbleTests.xctest */,
+				A3108106203B9EF000004B27 /* StumbleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A31080E9203B9EF000004B27 /* Stumble */ = {
+			isa = PBXGroup;
+			children = (
+				A31080EA203B9EF000004B27 /* AppDelegate.swift */,
+				A31080EC203B9EF000004B27 /* ViewController.swift */,
+				A31080EE203B9EF000004B27 /* Main.storyboard */,
+				A31080F1203B9EF000004B27 /* Assets.xcassets */,
+				A31080F3203B9EF000004B27 /* LaunchScreen.storyboard */,
+				A31080F6203B9EF000004B27 /* Info.plist */,
+			);
+			path = Stumble;
+			sourceTree = "<group>";
+		};
+		A31080FE203B9EF000004B27 /* StumbleTests */ = {
+			isa = PBXGroup;
+			children = (
+				A31080FF203B9EF000004B27 /* StumbleTests.swift */,
+				A3108101203B9EF000004B27 /* Info.plist */,
+			);
+			path = StumbleTests;
+			sourceTree = "<group>";
+		};
+		A3108109203B9EF000004B27 /* StumbleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A310810A203B9EF000004B27 /* StumbleUITests.swift */,
+				A310810C203B9EF000004B27 /* Info.plist */,
+			);
+			path = StumbleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A31080E6203B9EF000004B27 /* Stumble */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A310810F203B9EF000004B27 /* Build configuration list for PBXNativeTarget "Stumble" */;
+			buildPhases = (
+				A31080E3203B9EF000004B27 /* Sources */,
+				A31080E4203B9EF000004B27 /* Frameworks */,
+				A31080E5203B9EF000004B27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stumble;
+			productName = Stumble;
+			productReference = A31080E7203B9EF000004B27 /* Stumble.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A31080FA203B9EF000004B27 /* StumbleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3108112203B9EF000004B27 /* Build configuration list for PBXNativeTarget "StumbleTests" */;
+			buildPhases = (
+				A31080F7203B9EF000004B27 /* Sources */,
+				A31080F8203B9EF000004B27 /* Frameworks */,
+				A31080F9203B9EF000004B27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A31080FD203B9EF000004B27 /* PBXTargetDependency */,
+			);
+			name = StumbleTests;
+			productName = StumbleTests;
+			productReference = A31080FB203B9EF000004B27 /* StumbleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A3108105203B9EF000004B27 /* StumbleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3108115203B9EF000004B27 /* Build configuration list for PBXNativeTarget "StumbleUITests" */;
+			buildPhases = (
+				A3108102203B9EF000004B27 /* Sources */,
+				A3108103203B9EF000004B27 /* Frameworks */,
+				A3108104203B9EF000004B27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3108108203B9EF000004B27 /* PBXTargetDependency */,
+			);
+			name = StumbleUITests;
+			productName = StumbleUITests;
+			productReference = A3108106203B9EF000004B27 /* StumbleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A31080DF203B9EF000004B27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Michael McGuire";
+				TargetAttributes = {
+					A31080E6203B9EF000004B27 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					A31080FA203B9EF000004B27 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A31080E6203B9EF000004B27;
+					};
+					A3108105203B9EF000004B27 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A31080E6203B9EF000004B27;
+					};
+				};
+			};
+			buildConfigurationList = A31080E2203B9EF000004B27 /* Build configuration list for PBXProject "Stumble" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A31080DE203B9EF000004B27;
+			productRefGroup = A31080E8203B9EF000004B27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A31080E6203B9EF000004B27 /* Stumble */,
+				A31080FA203B9EF000004B27 /* StumbleTests */,
+				A3108105203B9EF000004B27 /* StumbleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A31080E5203B9EF000004B27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A31080F5203B9EF000004B27 /* LaunchScreen.storyboard in Resources */,
+				A31080F2203B9EF000004B27 /* Assets.xcassets in Resources */,
+				A31080F0203B9EF000004B27 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A31080F9203B9EF000004B27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3108104203B9EF000004B27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A31080E3203B9EF000004B27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A31080ED203B9EF000004B27 /* ViewController.swift in Sources */,
+				A31080EB203B9EF000004B27 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A31080F7203B9EF000004B27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3108100203B9EF000004B27 /* StumbleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3108102203B9EF000004B27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A310810B203B9EF000004B27 /* StumbleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A31080FD203B9EF000004B27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A31080E6203B9EF000004B27 /* Stumble */;
+			targetProxy = A31080FC203B9EF000004B27 /* PBXContainerItemProxy */;
+		};
+		A3108108203B9EF000004B27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A31080E6203B9EF000004B27 /* Stumble */;
+			targetProxy = A3108107203B9EF000004B27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A31080EE203B9EF000004B27 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A31080EF203B9EF000004B27 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A31080F3203B9EF000004B27 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A31080F4203B9EF000004B27 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A310810D203B9EF000004B27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A310810E203B9EF000004B27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3108110203B9EF000004B27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Stumble/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Stumble.Stumble;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3108111203B9EF000004B27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Stumble/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Stumble.Stumble;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A3108113203B9EF000004B27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StumbleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Stumble.StumbleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stumble.app/Stumble";
+			};
+			name = Debug;
+		};
+		A3108114203B9EF000004B27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StumbleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Stumble.StumbleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stumble.app/Stumble";
+			};
+			name = Release;
+		};
+		A3108116203B9EF000004B27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StumbleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Stumble.StumbleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Stumble;
+			};
+			name = Debug;
+		};
+		A3108117203B9EF000004B27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StumbleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Stumble.StumbleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Stumble;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A31080E2203B9EF000004B27 /* Build configuration list for PBXProject "Stumble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A310810D203B9EF000004B27 /* Debug */,
+				A310810E203B9EF000004B27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A310810F203B9EF000004B27 /* Build configuration list for PBXNativeTarget "Stumble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3108110203B9EF000004B27 /* Debug */,
+				A3108111203B9EF000004B27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3108112203B9EF000004B27 /* Build configuration list for PBXNativeTarget "StumbleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3108113203B9EF000004B27 /* Debug */,
+				A3108114203B9EF000004B27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3108115203B9EF000004B27 /* Build configuration list for PBXNativeTarget "StumbleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3108116203B9EF000004B27 /* Debug */,
+				A3108117203B9EF000004B27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A31080DF203B9EF000004B27 /* Project object */;
+}
